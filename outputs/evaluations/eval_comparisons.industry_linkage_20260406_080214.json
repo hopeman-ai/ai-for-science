@@ -1,0 +1,29 @@
+{
+  "evaluation_id": "eval_comparisons.industry_linkage_20260406_080214",
+  "target": "comparisons.industry_linkage",
+  "evaluated_at": "2026-04-06T08:02:14.120123",
+  "score": 85,
+  "verdict": "hold",
+  "summary": "[comparisons.industry_linkage] 점수: 85/100 | 이슈: 고위험 1건, 중위험 0건, 저위험 0건",
+  "issues": [
+    {
+      "type": "evidence_gap",
+      "severity": "high",
+      "target_section": "comparisons.industry_linkage",
+      "problem_text": "산업 연계 과학 연구 성과의 산업 적용 및 기술 이전 전략 K-문샷 기반 산업 연계 + 산학연 협력 강화 추진 AI 행동계획의 K-문샷을 통해 AI 기반 과학 문제 해결→산업 혁신",
+      "reason": "이 섹션에 연결된 근거자료가 없습니다.",
+      "suggestion": "공식 출처 문서를 확인하고 근거 링크를 추가하세요."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "section": "comparisons.industry_linkage",
+      "claim": "산업 연계 과학 연구 성과의 산업 적용 및 기술 이전 전략 K-문샷 기반 산업 연계 + 산학연 협력 강화 추진 AI 행동계획의 K-문샷을 통해 AI 기반 과학 문제 해결→산업 혁신",
+      "has_evidence": false,
+      "evidence_id": "",
+      "confidence": "none"
+    }
+  ],
+  "freshness_checks": [],
+  "recommendation": "근거가 부족하여 게시를 보류합니다. 공식 출처를 확보한 후 재작성하세요."
+}

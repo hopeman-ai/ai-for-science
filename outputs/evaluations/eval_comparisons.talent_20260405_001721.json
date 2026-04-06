@@ -1,0 +1,29 @@
+{
+  "evaluation_id": "eval_comparisons.talent_20260405_001721",
+  "target": "comparisons.talent",
+  "evaluated_at": "2026-04-05T00:17:21.437218",
+  "score": 85,
+  "verdict": "hold",
+  "summary": "[comparisons.talent] 점수: 85/100 | 이슈: 고위험 1건, 중위험 0건, 저위험 0건",
+  "issues": [
+    {
+      "type": "evidence_gap",
+      "severity": "high",
+      "target_section": "comparisons.talent",
+      "problem_text": "인재 전략 AI 연구 인력 양성, 학제간 협력, 교육 프로그램 국가과학AI연구센터 + 산학연 협력 구조 설계 (융합인재 부족 과제) AI 행동계획에서 국가과학AI연구센터 구축과 산",
+      "reason": "이 섹션에 연결된 근거자료가 없습니다.",
+      "suggestion": "공식 출처 문서를 확인하고 근거 링크를 추가하세요."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "section": "comparisons.talent",
+      "claim": "인재 전략 AI 연구 인력 양성, 학제간 협력, 교육 프로그램 국가과학AI연구센터 + 산학연 협력 구조 설계 (융합인재 부족 과제) AI 행동계획에서 국가과학AI연구센터 구축과 산",
+      "has_evidence": false,
+      "evidence_id": "",
+      "confidence": "none"
+    }
+  ],
+  "freshness_checks": [],
+  "recommendation": "근거가 부족하여 게시를 보류합니다. 공식 출처를 확보한 후 재작성하세요."
+}

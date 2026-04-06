@@ -1,0 +1,29 @@
+{
+  "evaluation_id": "eval_comparisons.governance_20260405_001721",
+  "target": "comparisons.governance",
+  "evaluated_at": "2026-04-05T00:17:21.437274",
+  "score": 85,
+  "verdict": "hold",
+  "summary": "[comparisons.governance] 점수: 85/100 | 이슈: 고위험 1건, 중위험 0건, 저위험 0건",
+  "issues": [
+    {
+      "type": "evidence_gap",
+      "severity": "high",
+      "target_section": "comparisons.governance",
+      "problem_text": "거버넌스 정책 추진 체계, 범부처 협력, 법·제도적 기반 AI 기본법 + 국가인공지능전략위원회 + 범정부 행동계획 (전 부처 참여) AI 기본법(2024)에 근거하여 대통령 직속 ",
+      "reason": "이 섹션에 연결된 근거자료가 없습니다.",
+      "suggestion": "공식 출처 문서를 확인하고 근거 링크를 추가하세요."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "section": "comparisons.governance",
+      "claim": "거버넌스 정책 추진 체계, 범부처 협력, 법·제도적 기반 AI 기본법 + 국가인공지능전략위원회 + 범정부 행동계획 (전 부처 참여) AI 기본법(2024)에 근거하여 대통령 직속 ",
+      "has_evidence": false,
+      "evidence_id": "",
+      "confidence": "none"
+    }
+  ],
+  "freshness_checks": [],
+  "recommendation": "근거가 부족하여 게시를 보류합니다. 공식 출처를 확보한 후 재작성하세요."
+}

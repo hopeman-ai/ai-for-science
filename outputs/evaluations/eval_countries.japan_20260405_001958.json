@@ -1,0 +1,36 @@
+{
+  "evaluation_id": "eval_countries.japan_20260405_001958",
+  "target": "countries.japan",
+  "evaluated_at": "2026-04-05T00:19:58.575489",
+  "score": 92,
+  "verdict": "pass",
+  "summary": "[countries.japan] 점수: 92/100 | 이슈: 고위험 0건, 중위험 1건, 저위험 0건",
+  "issues": [
+    {
+      "type": "imbalance",
+      "severity": "medium",
+      "target_section": "countries.japan",
+      "problem_text": "누락 국가: eu, korea, china, usa, japan",
+      "reason": "일부 국가의 비교 데이터가 누락되어 불균형합니다.",
+      "suggestion": "eu, korea, china, usa, japan 국가의 데이터를 추가하세요."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "section": "countries.japan",
+      "claim": "일본 🇯🇵 연구 시스템 혁신 AI 기반 과학 혁신 전략 과학 연구 시스템 자체를 AI 중심으로 재설계하여 연구 생산성을 혁신 연구생산성 저하 및 연구시스템 병목 문제 AI 연구플랫",
+      "has_evidence": true,
+      "evidence_id": "",
+      "confidence": "strong"
+    }
+  ],
+  "freshness_checks": [
+    {
+      "section": "countries.japan",
+      "latest_source_year": 2023,
+      "content_reflects_latest": true,
+      "note": "최신 자료 기준 작성됨"
+    }
+  ],
+  "recommendation": "게시 가능합니다. 이슈가 있다면 낮은 우선순위로 개선하세요."
+}

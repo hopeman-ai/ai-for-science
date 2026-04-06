@@ -1,0 +1,29 @@
+{
+  "evaluation_id": "eval_execution_strategy_20260406_073516",
+  "target": "execution_strategy",
+  "evaluated_at": "2026-04-06T07:35:16.505587",
+  "score": 85,
+  "verdict": "hold",
+  "summary": "[execution_strategy] 점수: 85/100 | 이슈: 고위험 1건, 중위험 0건, 저위험 0건",
+  "issues": [
+    {
+      "type": "evidence_gap",
+      "severity": "high",
+      "target_section": "execution_strategy",
+      "problem_text": "기술적 과제 과학 파운데이션 모델 개발 최상 글로벌 빅테크(Google, Meta)가 선도. 한국은 한국어 LLM 개발에 집중하나, 과학 특화 모델은 미흡 재료·바이오·화학 등 한",
+      "reason": "이 섹션에 연결된 근거자료가 없습니다.",
+      "suggestion": "공식 출처 문서를 확인하고 근거 링크를 추가하세요."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "section": "execution_strategy",
+      "claim": "기술적 과제 과학 파운데이션 모델 개발 최상 글로벌 빅테크(Google, Meta)가 선도. 한국은 한국어 LLM 개발에 집중하나, 과학 특화 모델은 미흡 재료·바이오·화학 등 한",
+      "has_evidence": false,
+      "evidence_id": "",
+      "confidence": "none"
+    }
+  ],
+  "freshness_checks": [],
+  "recommendation": "근거가 부족하여 게시를 보류합니다. 공식 출처를 확보한 후 재작성하세요."
+}

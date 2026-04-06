@@ -1,0 +1,36 @@
+{
+  "evaluation_id": "eval_countries.china_20260405_001721",
+  "target": "countries.china",
+  "evaluated_at": "2026-04-05T00:17:21.436999",
+  "score": 92,
+  "verdict": "pass",
+  "summary": "[countries.china] 점수: 92/100 | 이슈: 고위험 0건, 중위험 1건, 저위험 0건",
+  "issues": [
+    {
+      "type": "imbalance",
+      "severity": "medium",
+      "target_section": "countries.china",
+      "problem_text": "누락 국가: usa, japan, korea, china, eu",
+      "reason": "일부 국가의 비교 데이터가 누락되어 불균형합니다.",
+      "suggestion": "usa, japan, korea, china, eu 국가의 데이터를 추가하세요."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "section": "countries.china",
+      "claim": "중국 🇨🇳 산업 혁신 플랫폼 국가 AI + 산업전환 AI for Science를 산업 혁신 플랫폼으로 활용하여 과학발견을 제조 경쟁력으로 연결 과학발견·연구결과가 산업에 적용되는 ",
+      "has_evidence": true,
+      "evidence_id": "",
+      "confidence": "strong"
+    }
+  ],
+  "freshness_checks": [
+    {
+      "section": "countries.china",
+      "latest_source_year": 2024,
+      "content_reflects_latest": true,
+      "note": "최신 자료 기준 작성됨"
+    }
+  ],
+  "recommendation": "게시 가능합니다. 이슈가 있다면 낮은 우선순위로 개선하세요."
+}

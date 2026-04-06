@@ -1,0 +1,37 @@
+{
+  "archiveNote": "한국 과거 AI 정책 자료 아카이브. 2026년 국가인공지능전략위원회 발표 AI 행동계획을 기준으로 대표 정책 문서를 단일화하면서, 이전 문서들을 서비스 기본 화면에서 제외하고 보존용으로 이동. 아카이브 일자: 2026-04-04.",
+  "legacyDocuments": [
+    {
+      "id": "korea_ai_strategy",
+      "title": "인공지능 국가전략 (AI 국가전략 1.0)",
+      "source": "관계부처 합동 / 과학기술정보통신부",
+      "year": 2019,
+      "url": "https://www.msit.go.kr/bbs/view.do?sCode=user&mId=113&mPid=238&pageIndex=1&bbsSeqNo=94&nttSeqNo=1214048",
+      "archiveReason": "2026년 AI 행동계획이 법정 계획으로 수립됨에 따라 대체됨. 한국 AI 정책의 초기 프레임워크로서 역사적 의의는 있으나, 현행 정책과 직접 비교 시 혼선 초래 가능."
+    },
+    {
+      "id": "korea_ai_strategy_2",
+      "title": "인공지능 국가전략 2.0",
+      "source": "과학기술정보통신부",
+      "year": 2024,
+      "url": "https://www.msit.go.kr/bbs/list.do?sCode=user&mId=113&mPid=238",
+      "archiveReason": "AI 기본법 제정 이전의 비법정 전략 문서. 2026년 법정 AI 행동계획에 주요 내용이 흡수·발전됨."
+    },
+    {
+      "id": "korea_ai_basic_act",
+      "title": "인공지능 기본법 (AI Basic Act)",
+      "source": "대한민국 국회",
+      "year": 2024,
+      "url": "https://www.law.go.kr",
+      "archiveReason": "법률 자체는 현행이나, 서비스의 '출처' 목록에서는 정책 문서(행동계획)를 대표로 노출하고, 법률은 배경 정보로 분류. 행동계획 상세 설명에서 법적 근거로 언급."
+    },
+    {
+      "id": "korea_ai_safety_summit",
+      "title": "AI Safety Summit Seoul 2024",
+      "source": "대한민국 정부 / 영국 정부 공동 개최",
+      "year": 2024,
+      "url": "https://www.aiseoulsummit.kr",
+      "archiveReason": "이벤트성 자료. AI 거버넌스 리더십의 근거로서 의의가 있으나, 국가 전략 비교의 핵심 출처에는 해당하지 않음."
+    }
+  ]
+}

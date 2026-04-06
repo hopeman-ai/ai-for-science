@@ -1,0 +1,16 @@
+{
+  "routing_id": "route_eval_comparisons.industry_linkage_20260406_080214",
+  "evaluation_id": "eval_comparisons.industry_linkage_20260406_080214",
+  "decided_at": "2026-04-06T08:02:14.120130",
+  "decision": "hold",
+  "reason": "공식 출처가 부족합니다. 근거자료를 확보한 후 재작성이 필요합니다.",
+  "priority": "high",
+  "required_actions": [
+    {
+      "section": "comparisons.industry_linkage",
+      "action": "add_evidence",
+      "reason": "이 섹션에 연결된 근거자료가 없습니다."
+    }
+  ],
+  "send_to": "human_review"
+}

@@ -1,0 +1,21 @@
+{
+  "routing_id": "route_eval_countries.japan_20260406_080214",
+  "evaluation_id": "eval_countries.japan_20260406_080214",
+  "decided_at": "2026-04-06T08:02:14.119648",
+  "decision": "revise",
+  "reason": "경미한 수정이 필요합니다. 자동 수정 후 재검증합니다.",
+  "priority": "medium",
+  "required_actions": [
+    {
+      "section": "countries.japan",
+      "action": "edit",
+      "reason": "일부 국가의 비교 데이터가 누락되어 불균형합니다."
+    },
+    {
+      "section": "countries.japan",
+      "action": "add_missing_topic",
+      "reason": "japan 전략 요약에 필수 주제(후가쿠)가 누락되었습니다."
+    }
+  ],
+  "send_to": "reviser"
+}

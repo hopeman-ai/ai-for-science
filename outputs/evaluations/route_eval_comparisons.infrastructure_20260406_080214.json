@@ -1,0 +1,10 @@
+{
+  "routing_id": "route_eval_comparisons.infrastructure_20260406_080214",
+  "evaluation_id": "eval_comparisons.infrastructure_20260406_080214",
+  "decided_at": "2026-04-06T08:02:14.120006",
+  "decision": "pass",
+  "reason": "근거 기반 검증 통과. 게시 가능합니다.",
+  "priority": "low",
+  "required_actions": [],
+  "send_to": "publish"
+}

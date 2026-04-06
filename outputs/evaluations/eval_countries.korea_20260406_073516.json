@@ -1,0 +1,36 @@
+{
+  "evaluation_id": "eval_countries.korea_20260406_073516",
+  "target": "countries.korea",
+  "evaluated_at": "2026-04-06T07:35:16.504801",
+  "score": 92,
+  "verdict": "pass",
+  "summary": "[countries.korea] 점수: 92/100 | 이슈: 고위험 0건, 중위험 1건, 저위험 0건",
+  "issues": [
+    {
+      "type": "imbalance",
+      "severity": "medium",
+      "target_section": "countries.korea",
+      "problem_text": "누락 국가: japan, korea, eu, china, usa",
+      "reason": "일부 국가의 비교 데이터가 누락되어 불균형합니다.",
+      "suggestion": "japan, korea, eu, china, usa 국가의 데이터를 추가하세요."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "section": "countries.korea",
+      "claim": "한국 🇰🇷 산업·인프라 기반 Science 확장형 대한민국 AI 행동계획(2026~2028) 2026년 국가인공지능전략위원회 발표 법정 행동계획(99개 과제·326개 권고)을 기반",
+      "has_evidence": true,
+      "evidence_id": "",
+      "confidence": "strong"
+    }
+  ],
+  "freshness_checks": [
+    {
+      "section": "countries.korea",
+      "latest_source_year": 2026,
+      "content_reflects_latest": true,
+      "note": "최신 자료 기준 작성됨"
+    }
+  ],
+  "recommendation": "게시 가능합니다. 이슈가 있다면 낮은 우선순위로 개선하세요."
+}

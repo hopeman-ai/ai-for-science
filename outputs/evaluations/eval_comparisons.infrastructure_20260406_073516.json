@@ -1,0 +1,20 @@
+{
+  "evaluation_id": "eval_comparisons.infrastructure_20260406_073516",
+  "target": "comparisons.infrastructure",
+  "evaluated_at": "2026-04-06T07:35:16.505244",
+  "score": 100,
+  "verdict": "pass",
+  "summary": "[comparisons.infrastructure] 점수: 100/100 | 이슈: 고위험 0건, 중위험 0건, 저위험 0건",
+  "issues": [],
+  "evidence_checks": [
+    {
+      "section": "comparisons.infrastructure",
+      "claim": "인프라 전략 컴퓨팅, 데이터 센터, 연구 장비 등 물리적/디지털 인프라 전략 AI 인프라 재설계 + 클라우드 전환 추진 (HPC 격차 해소 과제) AI 행동계획에서 AI 인프라 재",
+      "has_evidence": true,
+      "evidence_id": "",
+      "confidence": "strong"
+    }
+  ],
+  "freshness_checks": [],
+  "recommendation": "게시 가능합니다. 이슈가 있다면 낮은 우선순위로 개선하세요."
+}

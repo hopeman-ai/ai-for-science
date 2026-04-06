@@ -1,0 +1,36 @@
+{
+  "evaluation_id": "eval_countries.eu_20260405_001721",
+  "target": "countries.eu",
+  "evaluated_at": "2026-04-05T00:17:21.437053",
+  "score": 92,
+  "verdict": "pass",
+  "summary": "[countries.eu] 점수: 92/100 | 이슈: 고위험 0건, 중위험 1건, 저위험 0건",
+  "issues": [
+    {
+      "type": "imbalance",
+      "severity": "medium",
+      "target_section": "countries.eu",
+      "problem_text": "누락 국가: usa, japan, korea, china, eu",
+      "reason": "일부 국가의 비교 데이터가 누락되어 불균형합니다.",
+      "suggestion": "usa, japan, korea, china, eu 국가의 데이터를 추가하세요."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "section": "countries.eu",
+      "claim": "EU 🇪🇺 연구 네트워크 연구 협력 네트워크 전략 분산된 유럽 연구 생태계를 통합하여 글로벌 연구 경쟁력 확보 유럽 연구 시스템의 분산 문제 (회원국별 개별 운영) 슈퍼컴퓨터·연구",
+      "has_evidence": true,
+      "evidence_id": "",
+      "confidence": "strong"
+    }
+  ],
+  "freshness_checks": [
+    {
+      "section": "countries.eu",
+      "latest_source_year": 2025,
+      "content_reflects_latest": true,
+      "note": "최신 자료 기준 작성됨"
+    }
+  ],
+  "recommendation": "게시 가능합니다. 이슈가 있다면 낮은 우선순위로 개선하세요."
+}

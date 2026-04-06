@@ -1,0 +1,29 @@
+{
+  "evaluation_id": "eval_comparisons.core_objective_20260406_080214",
+  "target": "comparisons.core_objective",
+  "evaluated_at": "2026-04-06T08:02:14.119936",
+  "score": 85,
+  "verdict": "hold",
+  "summary": "[comparisons.core_objective] 점수: 85/100 | 이슈: 고위험 1건, 중위험 0건, 저위험 0건",
+  "issues": [
+    {
+      "type": "evidence_gap",
+      "severity": "high",
+      "target_section": "comparisons.core_objective",
+      "problem_text": "핵심 목표 전략을 통해 해결하려는 핵심 문제와 달성 목표 AI 경쟁력 확보 + K-문샷 기반 과학 미션 부분 포함 AI 행동계획은 AI 기술 주권과 산업 경쟁력 확보를 기본 목표로",
+      "reason": "이 섹션에 연결된 근거자료가 없습니다.",
+      "suggestion": "공식 출처 문서를 확인하고 근거 링크를 추가하세요."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "section": "comparisons.core_objective",
+      "claim": "핵심 목표 전략을 통해 해결하려는 핵심 문제와 달성 목표 AI 경쟁력 확보 + K-문샷 기반 과학 미션 부분 포함 AI 행동계획은 AI 기술 주권과 산업 경쟁력 확보를 기본 목표로",
+      "has_evidence": false,
+      "evidence_id": "",
+      "confidence": "none"
+    }
+  ],
+  "freshness_checks": [],
+  "recommendation": "근거가 부족하여 게시를 보류합니다. 공식 출처를 확보한 후 재작성하세요."
+}

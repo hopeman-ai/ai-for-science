@@ -1,0 +1,178 @@
+{
+  "countries.korea": {
+    "route": "publish",
+    "iterations": 1,
+    "initial_score": 92,
+    "final_score": 92,
+    "initial_verdict": "pass",
+    "final_verdict": "pass",
+    "router_decision": "pass",
+    "revision_items": 0,
+    "issues_total": 1
+  },
+  "countries.japan": {
+    "route": "revise",
+    "iterations": 1,
+    "initial_score": 84,
+    "final_score": 84,
+    "initial_verdict": "revise",
+    "final_verdict": "revise",
+    "router_decision": "revise",
+    "revision_items": 0,
+    "issues_total": 2
+  },
+  "countries.china": {
+    "route": "revise",
+    "iterations": 1,
+    "initial_score": 84,
+    "final_score": 84,
+    "initial_verdict": "revise",
+    "final_verdict": "revise",
+    "router_decision": "revise",
+    "revision_items": 0,
+    "issues_total": 2
+  },
+  "countries.usa": {
+    "route": "publish",
+    "iterations": 1,
+    "initial_score": 92,
+    "final_score": 92,
+    "initial_verdict": "pass",
+    "final_verdict": "pass",
+    "router_decision": "pass",
+    "revision_items": 0,
+    "issues_total": 1
+  },
+  "countries.eu": {
+    "route": "rewrite",
+    "iterations": 1,
+    "initial_score": 77,
+    "final_score": 77,
+    "initial_verdict": "revise",
+    "final_verdict": "revise",
+    "router_decision": "rewrite",
+    "revision_items": 0,
+    "issues_total": 2
+  },
+  "comparisons.strategy_type": {
+    "route": "hold",
+    "iterations": 1,
+    "initial_score": 85,
+    "final_score": 85,
+    "initial_verdict": "hold",
+    "final_verdict": "hold",
+    "router_decision": "hold",
+    "revision_items": 0,
+    "issues_total": 1
+  },
+  "comparisons.core_objective": {
+    "route": "hold",
+    "iterations": 1,
+    "initial_score": 85,
+    "final_score": 85,
+    "initial_verdict": "hold",
+    "final_verdict": "hold",
+    "router_decision": "hold",
+    "revision_items": 0,
+    "issues_total": 1
+  },
+  "comparisons.infrastructure": {
+    "route": "publish",
+    "iterations": 1,
+    "initial_score": 100,
+    "final_score": 100,
+    "initial_verdict": "pass",
+    "final_verdict": "pass",
+    "router_decision": "pass",
+    "revision_items": 0,
+    "issues_total": 0
+  },
+  "comparisons.data_strategy": {
+    "route": "hold",
+    "iterations": 1,
+    "initial_score": 85,
+    "final_score": 85,
+    "initial_verdict": "hold",
+    "final_verdict": "hold",
+    "router_decision": "hold",
+    "revision_items": 0,
+    "issues_total": 1
+  },
+  "comparisons.talent": {
+    "route": "hold",
+    "iterations": 1,
+    "initial_score": 85,
+    "final_score": 85,
+    "initial_verdict": "hold",
+    "final_verdict": "hold",
+    "router_decision": "hold",
+    "revision_items": 0,
+    "issues_total": 1
+  },
+  "comparisons.industry_linkage": {
+    "route": "hold",
+    "iterations": 1,
+    "initial_score": 85,
+    "final_score": 85,
+    "initial_verdict": "hold",
+    "final_verdict": "hold",
+    "router_decision": "hold",
+    "revision_items": 0,
+    "issues_total": 1
+  },
+  "comparisons.governance": {
+    "route": "hold",
+    "iterations": 1,
+    "initial_score": 85,
+    "final_score": 85,
+    "initial_verdict": "hold",
+    "final_verdict": "hold",
+    "router_decision": "hold",
+    "revision_items": 0,
+    "issues_total": 1
+  },
+  "comparisons.international_cooperation": {
+    "route": "hold",
+    "iterations": 1,
+    "initial_score": 85,
+    "final_score": 85,
+    "initial_verdict": "hold",
+    "final_verdict": "hold",
+    "router_decision": "hold",
+    "revision_items": 0,
+    "issues_total": 1
+  },
+  "overview.korea_pest": {
+    "route": "revised",
+    "iterations": 2,
+    "initial_score": 84,
+    "final_score": 92,
+    "initial_verdict": "revise",
+    "final_verdict": "pass",
+    "router_decision": "pass",
+    "revision_items": 2,
+    "issues_total": 1
+  },
+  "execution_strategy": {
+    "route": "hold",
+    "iterations": 1,
+    "initial_score": 85,
+    "final_score": 85,
+    "initial_verdict": "hold",
+    "final_verdict": "hold",
+    "router_decision": "hold",
+    "revision_items": 0,
+    "issues_total": 1
+  },
+  "insights": {
+    "route": "hold",
+    "iterations": 1,
+    "initial_score": 77,
+    "final_score": 77,
+    "initial_verdict": "hold",
+    "final_verdict": "hold",
+    "router_decision": "hold",
+    "revision_items": 0,
+    "issues_total": 2
+  }
+}

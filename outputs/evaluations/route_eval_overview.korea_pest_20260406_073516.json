@@ -1,0 +1,26 @@
+{
+  "routing_id": "route_eval_overview.korea_pest_20260406_073516",
+  "evaluation_id": "eval_overview.korea_pest_20260406_073516",
+  "decided_at": "2026-04-06T07:35:16.505541",
+  "decision": "hold",
+  "reason": "공식 출처가 부족합니다. 근거자료를 확보한 후 재작성이 필요합니다.",
+  "priority": "high",
+  "required_actions": [
+    {
+      "section": "overview.korea_pest",
+      "action": "add_evidence",
+      "reason": "이 섹션에 연결된 근거자료가 없습니다."
+    },
+    {
+      "section": "overview.korea_pest",
+      "action": "edit",
+      "reason": "최신 대표 문서(2026년)보다 오래된 자료를 참조하고 있습니다."
+    },
+    {
+      "section": "overview.korea_pest",
+      "action": "edit",
+      "reason": "과도한 단정 표현 '절대적으로'이 감지되었습니다."
+    }
+  ],
+  "send_to": "human_review"
+}

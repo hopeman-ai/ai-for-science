@@ -1,0 +1,52 @@
+{
+  "evaluation_id": "eval_overview.korea_pest_20260405_001958",
+  "target": "overview.korea_pest",
+  "evaluated_at": "2026-04-05T00:19:58.575912",
+  "score": 69,
+  "verdict": "hold",
+  "summary": "[overview.korea_pest] 점수: 69/100 | 이슈: 고위험 1건, 중위험 2건, 저위험 0건",
+  "issues": [
+    {
+      "type": "evidence_gap",
+      "severity": "high",
+      "target_section": "overview.korea_pest",
+      "problem_text": "한국 AI for Science PEST 진단 한국의 AI for Science 추진여건을 정책(P)·산업(E)·인재(S)·기술(T) 4개 축으로 진단합니다. PEST 분석은 외부",
+      "reason": "이 섹션에 연결된 근거자료가 없습니다.",
+      "suggestion": "공식 출처 문서를 확인하고 근거 링크를 추가하세요."
+    },
+    {
+      "type": "outdated",
+      "severity": "medium",
+      "target_section": "overview.korea_pest",
+      "problem_text": "과거 연도([2024, 2024]) 참조 발견",
+      "reason": "최신 대표 문서(2026년)보다 오래된 자료를 참조하고 있습니다.",
+      "suggestion": "최신 대표 문서 기준으로 내용을 갱신하세요."
+    },
+    {
+      "type": "overclaim",
+      "severity": "medium",
+      "target_section": "overview.korea_pest",
+      "problem_text": "절대적으로",
+      "reason": "과도한 단정 표현 '절대적으로'이 감지되었습니다.",
+      "suggestion": "근거가 뒷받침되지 않는 단정 표현을 완화하세요. 예: '~로 평가됨', '~로 분석됨'."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "section": "overview.korea_pest",
+      "claim": "한국 AI for Science PEST 진단 한국의 AI for Science 추진여건을 정책(P)·산업(E)·인재(S)·기술(T) 4개 축으로 진단합니다. PEST 분석은 외부",
+      "has_evidence": false,
+      "evidence_id": "",
+      "confidence": "none"
+    }
+  ],
+  "freshness_checks": [
+    {
+      "section": "overview.korea_pest",
+      "latest_source_year": 2026,
+      "content_reflects_latest": false,
+      "note": "과거 연도 참조: [2024, 2024]"
+    }
+  ],
+  "recommendation": "근거가 부족하여 게시를 보류합니다. 공식 출처를 확보한 후 재작성하세요."
+}

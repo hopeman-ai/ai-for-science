@@ -1,0 +1,16 @@
+{
+  "routing_id": "route_eval_countries.korea_20260406_073516",
+  "evaluation_id": "eval_countries.korea_20260406_073516",
+  "decided_at": "2026-04-06T07:35:16.504834",
+  "decision": "pass",
+  "reason": "근거 기반 검증 통과. 게시 가능합니다.",
+  "priority": "low",
+  "required_actions": [
+    {
+      "section": "countries.korea",
+      "action": "edit",
+      "reason": "일부 국가의 비교 데이터가 누락되어 불균형합니다."
+    }
+  ],
+  "send_to": "publish"
+}

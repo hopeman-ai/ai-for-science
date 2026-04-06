@@ -1,0 +1,37 @@
+{
+  "evaluation_id": "eval_insights_20260405_001958",
+  "target": "insights",
+  "evaluated_at": "2026-04-05T00:19:58.575993",
+  "score": 77,
+  "verdict": "hold",
+  "summary": "[insights] 점수: 77/100 | 이슈: 고위험 1건, 중위험 1건, 저위험 0건",
+  "issues": [
+    {
+      "type": "evidence_gap",
+      "severity": "high",
+      "target_section": "insights",
+      "problem_text": "정책 제안 1 AI for Science 국가전략 수립 즉시 전략 현행 AI 행동계획 내 K-문샷·국가과학AI연구센터 등 과학 관련 과제의 실행력을 강화하고, 차기 행동계획(202",
+      "reason": "이 섹션에 연결된 근거자료가 없습니다.",
+      "suggestion": "공식 출처 문서를 확인하고 근거 링크를 추가하세요."
+    },
+    {
+      "type": "overclaim",
+      "severity": "medium",
+      "target_section": "insights",
+      "problem_text": "전략 부재",
+      "reason": "과도한 단정 표현 '전략 부재'이 감지되었습니다.",
+      "suggestion": "근거가 뒷받침되지 않는 단정 표현을 완화하세요. 예: '~로 평가됨', '~로 분석됨'."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "section": "insights",
+      "claim": "정책 제안 1 AI for Science 국가전략 수립 즉시 전략 현행 AI 행동계획 내 K-문샷·국가과학AI연구센터 등 과학 관련 과제의 실행력을 강화하고, 차기 행동계획(202",
+      "has_evidence": false,
+      "evidence_id": "",
+      "confidence": "none"
+    }
+  ],
+  "freshness_checks": [],
+  "recommendation": "근거가 부족하여 게시를 보류합니다. 공식 출처를 확보한 후 재작성하세요."
+}

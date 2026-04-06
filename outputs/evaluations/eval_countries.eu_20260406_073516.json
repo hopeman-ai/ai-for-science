@@ -1,0 +1,44 @@
+{
+  "evaluation_id": "eval_countries.eu_20260406_073516",
+  "target": "countries.eu",
+  "evaluated_at": "2026-04-06T07:35:16.505102",
+  "score": 77,
+  "verdict": "revise",
+  "summary": "[countries.eu] 점수: 77/100 | 이슈: 고위험 1건, 중위험 1건, 저위험 0건",
+  "issues": [
+    {
+      "type": "imbalance",
+      "severity": "medium",
+      "target_section": "countries.eu",
+      "problem_text": "누락 국가: japan, korea, eu, china, usa",
+      "reason": "일부 국가의 비교 데이터가 누락되어 불균형합니다.",
+      "suggestion": "japan, korea, eu, china, usa 국가의 데이터를 추가하세요."
+    },
+    {
+      "type": "missing",
+      "severity": "high",
+      "target_section": "countries.eu",
+      "problem_text": "누락 키워드: Horizon, EOSC, AI Continent",
+      "reason": "eu 전략 요약에 필수 주제(Horizon, EOSC, AI Continent)가 누락되었습니다.",
+      "suggestion": "근거자료를 참조하여 Horizon, EOSC, AI Continent 관련 내용을 추가하세요."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "section": "countries.eu",
+      "claim": "EU 🇪🇺 연구 네트워크 연구 협력 네트워크 전략 분산된 유럽 연구 생태계를 통합하여 글로벌 연구 경쟁력 확보 유럽 연구 시스템의 분산 문제 (회원국별 개별 운영) 슈퍼컴퓨터·연구",
+      "has_evidence": true,
+      "evidence_id": "",
+      "confidence": "strong"
+    }
+  ],
+  "freshness_checks": [
+    {
+      "section": "countries.eu",
+      "latest_source_year": 2025,
+      "content_reflects_latest": true,
+      "note": "최신 자료 기준 작성됨"
+    }
+  ],
+  "recommendation": "수정이 필요합니다. 우선 점검 영역: countries.eu"
+}

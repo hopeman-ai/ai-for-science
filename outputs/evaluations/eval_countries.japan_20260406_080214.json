@@ -1,0 +1,44 @@
+{
+  "evaluation_id": "eval_countries.japan_20260406_080214",
+  "target": "countries.japan",
+  "evaluated_at": "2026-04-06T08:02:14.119632",
+  "score": 84,
+  "verdict": "revise",
+  "summary": "[countries.japan] 점수: 84/100 | 이슈: 고위험 0건, 중위험 2건, 저위험 0건",
+  "issues": [
+    {
+      "type": "imbalance",
+      "severity": "medium",
+      "target_section": "countries.japan",
+      "problem_text": "누락 국가: eu, usa, korea, japan, china",
+      "reason": "일부 국가의 비교 데이터가 누락되어 불균형합니다.",
+      "suggestion": "eu, usa, korea, japan, china 국가의 데이터를 추가하세요."
+    },
+    {
+      "type": "missing",
+      "severity": "medium",
+      "target_section": "countries.japan",
+      "problem_text": "누락 키워드: 후가쿠",
+      "reason": "japan 전략 요약에 필수 주제(후가쿠)가 누락되었습니다.",
+      "suggestion": "근거자료를 참조하여 후가쿠 관련 내용을 추가하세요."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "section": "countries.japan",
+      "claim": "일본 🇯🇵 연구 시스템 혁신 AI 기반 과학 혁신 전략 과학 연구 시스템 자체를 AI 중심으로 재설계하여 연구 생산성을 혁신 연구생산성 저하 및 연구시스템 병목 문제 AI 연구플랫",
+      "has_evidence": true,
+      "evidence_id": "",
+      "confidence": "strong"
+    }
+  ],
+  "freshness_checks": [
+    {
+      "section": "countries.japan",
+      "latest_source_year": 2023,
+      "content_reflects_latest": true,
+      "note": "최신 자료 기준 작성됨"
+    }
+  ],
+  "recommendation": "수정이 필요합니다. 우선 점검 영역: countries.japan"
+}

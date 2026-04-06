@@ -1,0 +1,29 @@
+{
+  "evaluation_id": "eval_comparisons.strategy_type_20260405_001721",
+  "target": "comparisons.strategy_type",
+  "evaluated_at": "2026-04-05T00:17:21.437097",
+  "score": 85,
+  "verdict": "hold",
+  "summary": "[comparisons.strategy_type] 점수: 85/100 | 이슈: 고위험 1건, 중위험 0건, 저위험 0건",
+  "issues": [
+    {
+      "type": "evidence_gap",
+      "severity": "high",
+      "target_section": "comparisons.strategy_type",
+      "problem_text": "전략 유형 각 국가의 AI for Science 접근 방식과 전략 프레임워크 산업·인프라 기반 Science 확장형 2026년 국가인공지능전략위원회가 발표한 '대한민국 AI 행동계",
+      "reason": "이 섹션에 연결된 근거자료가 없습니다.",
+      "suggestion": "공식 출처 문서를 확인하고 근거 링크를 추가하세요."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "section": "comparisons.strategy_type",
+      "claim": "전략 유형 각 국가의 AI for Science 접근 방식과 전략 프레임워크 산업·인프라 기반 Science 확장형 2026년 국가인공지능전략위원회가 발표한 '대한민국 AI 행동계",
+      "has_evidence": false,
+      "evidence_id": "",
+      "confidence": "none"
+    }
+  ],
+  "freshness_checks": [],
+  "recommendation": "근거가 부족하여 게시를 보류합니다. 공식 출처를 확보한 후 재작성하세요."
+}

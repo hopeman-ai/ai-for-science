@@ -1,0 +1,23 @@
+{
+  "revision_id": "rev_eval_overview.korea_pest_20260406_080214_080214",
+  "evaluation_id": "eval_overview.korea_pest_20260406_080214",
+  "revised_at": "2026-04-06T08:02:14.120351",
+  "items": [
+    {
+      "target_section": "overview.korea_pest",
+      "original_text": "과거 연도([2024, 2024]) 참조 발견",
+      "revised_text": "과거 연도([2024, 2024]) 참조 발견 [최신 자료 기준으로 갱신 검토 필요]",
+      "revision_reason": "과거 자료 참조를 최신 자료 기준으로 갱신 권고",
+      "issue_type": "outdated"
+    },
+    {
+      "target_section": "overview.korea_pest",
+      "original_text": "절대적으로",
+      "revised_text": "상당 부분",
+      "revision_reason": "단정 표현 완화: '절대적으로' → '상당 부분'",
+      "issue_type": "overclaim"
+    }
+  ],
+  "summary": "전체 이슈 2건 중 2건 자동 수정 완료, 0건 수동 검토 필요. 수정 유형: outdated: 1건, overclaim: 1건",
+  "requires_re_evaluation": true
+}

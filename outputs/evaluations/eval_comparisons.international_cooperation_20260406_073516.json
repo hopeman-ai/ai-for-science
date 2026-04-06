@@ -1,0 +1,29 @@
+{
+  "evaluation_id": "eval_comparisons.international_cooperation_20260406_073516",
+  "target": "comparisons.international_cooperation",
+  "evaluated_at": "2026-04-06T07:35:16.505436",
+  "score": 85,
+  "verdict": "hold",
+  "summary": "[comparisons.international_cooperation] 점수: 85/100 | 이슈: 고위험 1건, 중위험 0건, 저위험 0건",
+  "issues": [
+    {
+      "type": "evidence_gap",
+      "severity": "high",
+      "target_section": "comparisons.international_cooperation",
+      "problem_text": "국제 협력 글로벌 연구 협력, 공동 프로젝트, 국제 표준 AI 거버넌스 리더십 + 행동계획 기반 국제 협력 확대 AI 안전 서울 정상회의(2024.5) 개최와 서울 선언 채택으로 ",
+      "reason": "이 섹션에 연결된 근거자료가 없습니다.",
+      "suggestion": "공식 출처 문서를 확인하고 근거 링크를 추가하세요."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "section": "comparisons.international_cooperation",
+      "claim": "국제 협력 글로벌 연구 협력, 공동 프로젝트, 국제 표준 AI 거버넌스 리더십 + 행동계획 기반 국제 협력 확대 AI 안전 서울 정상회의(2024.5) 개최와 서울 선언 채택으로 ",
+      "has_evidence": false,
+      "evidence_id": "",
+      "confidence": "none"
+    }
+  ],
+  "freshness_checks": [],
+  "recommendation": "근거가 부족하여 게시를 보류합니다. 공식 출처를 확보한 후 재작성하세요."
+}
