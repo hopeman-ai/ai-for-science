@@ -273,7 +273,147 @@ footer{text-align:center;padding:2rem 1rem;color:var(--sub);font-size:.8rem;bord
 .footer-disclaimer a{color:var(--accent);text-decoration:none}
 .footer-disclaimer a:hover{text-decoration:underline}
 
-/* Responsive */
-@media(max-width:1200px){.g5,.grid.g5{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:900px){.g5,.g4,.g3{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:650px){.g5,.g4,.g3,.g2,.pest-grid{grid-template-columns:1fr}.tab-btn{padding:11px 14px;font-size:.82rem}header h1{font-size:1.4rem}main{padding:1rem}}
+/* ===== Responsive — 모바일 전면 최적화 ===== */
+
+/* 글로벌 텍스트 줄바꿈 규칙 */
+body{word-break:keep-all;overflow-wrap:break-word}
+
+/* Tablet (641~1024px) */
+@media(max-width:1200px){
+  .g5,.grid.g5{grid-template-columns:repeat(3,1fr)}
+  .g4{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:900px){
+  .g5,.g4,.g3{grid-template-columns:repeat(2,1fr)}
+  .snapshot-grid{grid-template-columns:repeat(3,1fr)}
+  .structure-grid{grid-template-columns:repeat(2,1fr)}
+  .concept-grid{grid-template-columns:repeat(2,1fr)}
+}
+
+/* Mobile (<=640px) */
+@media(max-width:640px){
+  /* 기본 레이아웃 */
+  main{padding:.8rem .6rem 2rem}
+  .stitle h2{font-size:1.05rem}
+  .stitle p{font-size:.8rem}
+  .mt2{margin-top:1.4rem}
+
+  /* 헤더 */
+  header{padding:1.6rem 1rem 1.4rem}
+  header h1{font-size:1.3rem}
+  .subtitle{font-size:.82rem}
+
+  /* 네비게이션 — 가로 스크롤 탭 */
+  .tab-inner{justify-content:flex-start;-webkit-overflow-scrolling:touch;scrollbar-width:none;-ms-overflow-style:none;padding:0 .4rem}
+  .tab-inner::-webkit-scrollbar{display:none}
+  .tab-btn{padding:10px 14px;font-size:.78rem;flex-shrink:0}
+
+  /* 배너 */
+  .banner{padding:1rem 1.1rem;border-radius:10px;margin-bottom:1.2rem}
+  .banner .bt{font-size:.84rem;line-height:1.6}
+
+  /* 그리드 — 모바일 1열 */
+  .g2,.g3,.g4,.g5,.grid.g5,.grid.g4,.grid.g3,.grid.g2{grid-template-columns:1fr}
+  .grid{gap:.8rem}
+
+  /* 대시보드: 스냅샷 2열 */
+  .snapshot-grid{grid-template-columns:repeat(2,1fr);gap:.7rem}
+  .snapshot-card{padding:.8rem .6rem}
+  .snap-flag{font-size:1.4rem}
+  .snap-name{font-size:.85rem}
+  .snap-type{font-size:.72rem}
+
+  /* 대시보드: 전략 구조 2열 */
+  .structure-grid{grid-template-columns:repeat(2,1fr);gap:.7rem}
+  .structure-card{padding:1rem .8rem}
+  .str-value{font-size:1.2rem}
+  .str-countries{font-size:.8rem}
+  .str-desc{font-size:.72rem}
+
+  /* 데이터 신뢰성 */
+  .reliability-grid{flex-direction:column;gap:4px;align-items:flex-start}
+  .rel-item{font-size:.78rem}
+
+  /* 핵심 개념 카드 */
+  .concept-grid{grid-template-columns:1fr;gap:.7rem}
+  .concept-card{height:auto;padding:1rem}
+  .concept-desc{-webkit-line-clamp:unset}
+
+  /* 핵심 구성요소 카드 */
+  .cmpcard{padding:1rem}
+  .cmpcard .cname{font-size:.9rem}
+  .cmpcard .celems li{font-size:.8rem;padding:2px 0 2px 14px}
+  .grid.g5>.cmpcard{height:auto}
+
+  /* 국가 전략 카드 */
+  .cc{padding:1rem}
+  .cc .flag{font-size:1.3rem}
+  .cc .cn{font-size:.92rem}
+  .cc .ol{font-size:.82rem;line-height:1.5}
+  .cc .mr{font-size:.76rem;flex-wrap:wrap}
+  .cc .ml{min-width:48px}
+
+  /* 비교 분석 카드 */
+  .compc{padding:1rem}
+  .compc .cco{font-size:.85rem}
+  .compc .ccs{font-size:.8rem}
+  .compc .ccd{font-size:.78rem}
+
+  /* Chips */
+  .chips{gap:6px;margin-bottom:1rem}
+  .chip{padding:6px 12px;font-size:.78rem}
+
+  /* 표: 가로 스크롤 + 최소 너비 */
+  .md{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .md table{min-width:600px;font-size:.76rem}
+  .md thead th{padding:7px 8px;font-size:.72rem}
+  .md tbody td{padding:7px 8px;font-size:.76rem}
+  .md tbody td:first-child{white-space:normal;min-width:50px}
+
+  /* PEST 카드 */
+  .pest-grid{grid-template-columns:1fr;gap:.8rem}
+  .pest-card{padding:1rem}
+  .pest-card .pest-title{font-size:.92rem}
+  .pest-card li{font-size:.8rem;line-height:1.5;padding:3px 0 3px 14px}
+  .pest-card .pest-axis{width:30px;height:30px;font-size:.85rem}
+
+  /* PEST-Policy 매핑 테이블 */
+  .map-table{font-size:.76rem}
+  .card{padding:1rem;overflow-x:auto}
+
+  /* 실행 전략 */
+  .excard{padding:1rem}
+  .excard .exname{font-size:.88rem}
+  .excard .exrow{font-size:.78rem}
+
+  /* 거버넌스 모델 */
+  .govcard{padding:1rem}
+  .govcard .gm{font-size:.88rem}
+  .govcard .gd{font-size:.78rem}
+  .govcard .gp{font-size:.76rem}
+
+  /* 정책 제안 */
+  .polcard{padding:1rem}
+  .polcard .ptitle{font-size:.88rem}
+  .polcard .pd{font-size:.8rem}
+  .polcard .pi{font-size:.78rem}
+
+  /* 차트 */
+  .chart-container{padding:1rem}
+  .chart-legend{gap:6px 12px}
+  .legend-item{font-size:.76rem}
+  .legend-type{font-size:.7rem}
+  .chart-note{font-size:.7rem}
+
+  /* 출처 카드 */
+  .refc{padding:1rem}
+  .refc .rt{font-size:.85rem}
+  .refc .rm{font-size:.72rem}
+  .rst{font-size:.78rem}
+  .rsul li{font-size:.76rem}
+  .rlb{font-size:.76rem;padding:5px 10px}
+
+  /* Footer */
+  footer{padding:1.2rem .8rem}
+  .footer-disclaimer{font-size:.68rem;line-height:1.5}
+}
