@@ -1,0 +1,8 @@
+# 프로덕션 환경 설정 (base.yaml 오버라이드)
+
+server:
+  reload: false
+  log_level: "warning"
+
+llm:
+  temperature: 0.2

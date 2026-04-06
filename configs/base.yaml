@@ -1,0 +1,33 @@
+# AI for Science - 기본 설정
+# 환경별 오버라이드: dev.yaml, prod.yaml
+
+project:
+  name: "AI for Science 국가전략 비교분석"
+  version: "2.0.0"
+
+llm:
+  provider: "openai"
+  model: "gpt-4o"
+  temperature: 0.3
+  max_tokens: 2000
+
+data:
+  processed_dir: "data/processed"
+  references_dir: "data/references"
+
+outputs:
+  base_dir: "outputs"
+  draft_dir: "outputs/draft"
+  final_dir: "outputs/final"
+  retrieval_dir: "outputs/retrieval"
+  archive_dir: "outputs/archive"
+  runs_dir: "outputs/runs"
+
+agents:
+  default_countries: ["japan", "china", "usa", "eu"]
+  default_dimensions: "all"
+
+server:
+  host: "0.0.0.0"
+  port: 8000
+  reload: false

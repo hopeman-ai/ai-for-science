@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "description": "서비스 콘텐츠와 근거자료의 연결 인덱스",
+    "last_updated": "2026-04-04"
+  },
+  "evidence_chunks": [
+    {
+      "evidence_id": "ev_kr_action_plan_01",
+      "document_id": "korea_ai_action_plan",
+      "document_title": "대한민국 AI 행동계획(2026~2028)",
+      "issuing_body": "국가인공지능전략위원회",
+      "year": 2026,
+      "url": "https://www.aikorea.go.kr/web/board/brdDetail.do?menu_cd=000010&num=136&currentPage=1&searchData=&searchText=",
+      "excerpt": "99개 실행과제와 326개 정책권고를 포괄하는 범정부 AI 전략. K-문샷, 국가과학AI연구센터 구축 등 포함.",
+      "page_or_section": "본문 전체"
+    },
+    {
+      "evidence_id": "ev_kr_action_plan_02",
+      "document_id": "korea_ai_action_plan",
+      "document_title": "대한민국 AI 행동계획(2026~2028)",
+      "issuing_body": "국가인공지능전략위원회",
+      "year": 2026,
+      "url": "https://www.aikorea.go.kr/web/board/brdDetail.do?menu_cd=000010&num=136&currentPage=1&searchData=&searchText=",
+      "excerpt": "대통령 직속 국가인공지능전략위원회가 AI 정책 총괄 컨트롤타워로 설치.",
+      "page_or_section": "거버넌스 체계"
+    },
+    {
+      "evidence_id": "ev_jp_mext_01",
+      "document_id": "japan_mext",
+      "document_title": "AI for Science 推進について（提言）",
+      "issuing_body": "文部科学省",
+      "year": 2023,
+      "url": "https://www.mext.go.jp/b_menu/shingi/chousa/shinkou/077/siryo/aifors_260209_001.html",
+      "excerpt": "AI 기반 연구 자동화, 대규모 과학 데이터셋 구축, 후가쿠 및 차세대 슈퍼컴퓨터 중심 연구플랫폼 구축.",
+      "page_or_section": "제언 본문"
+    },
+    {
+      "evidence_id": "ev_us_nairr_01",
+      "document_id": "usa_nairr_portal",
+      "document_title": "National AI Research Resource (NAIRR)",
+      "issuing_body": "NSF",
+      "year": 2024,
+      "url": "https://new.nsf.gov/focus-areas/artificial-intelligence/nairr",
+      "excerpt": "연구자와 교육자에게 컴퓨팅 자원, 고품질 데이터셋, 교육 도구를 제공하는 국가 차원의 공유 AI 연구 인프라.",
+      "page_or_section": "NAIRR Overview"
+    },
+    {
+      "evidence_id": "ev_us_nairr_02",
+      "document_id": "usa_nairr_report",
+      "document_title": "NAIRR Task Force Final Report",
+      "issuing_body": "NAIRR Task Force",
+      "year": 2023,
+      "url": "https://nsf-gov-resources.nsf.gov/2023-10/NAIRR-TF-Final-Report-2023.pdf",
+      "excerpt": "4대 포털(컴퓨팅, 데이터, 소프트웨어/플랫폼, 테스트베드) 연합 아키텍처. 6년간 약 26억 달러 투자 규모.",
+      "page_or_section": "Executive Summary"
+    },
+    {
+      "evidence_id": "ev_eu_ai_science_01",
+      "document_id": "eu_ai_science",
+      "document_title": "Artificial Intelligence in Science",
+      "issuing_body": "European Commission",
+      "year": 2024,
+      "url": "https://research-and-innovation.ec.europa.eu/research-area/industrial-research-and-innovation/artificial-intelligence-ai-science_en",
+      "excerpt": "Horizon Europe을 통한 AI for Science 연구 펀딩, EOSC 기반 오픈 사이언스 데이터 인프라.",
+      "page_or_section": "Policy Framework"
+    },
+    {
+      "evidence_id": "ev_eu_continent_01",
+      "document_id": "eu_ai_continent",
+      "document_title": "AI Continent Action Plan",
+      "issuing_body": "European Commission",
+      "year": 2025,
+      "url": "https://digital-strategy.ec.europa.eu/en/library/ai-continent-action-plan",
+      "excerpt": "2,000억 유로 이상 AI 투자 동원. AI Gigafactories, AI-ready 에너지 공급, 규제 간소화.",
+      "page_or_section": "Action Plan Overview"
+    },
+    {
+      "evidence_id": "ev_cn_ai_plus_01",
+      "document_id": "china_ai_plus",
+      "document_title": "인공지능+ 행동계획",
+      "issuing_body": "中国国务院",
+      "year": 2024,
+      "url": "https://www.gov.cn/yaowen/liebiao/202403/content_6939153.htm",
+      "excerpt": "AI를 과학연구, 제조, 헬스케어, 교육 등 모든 산업에 깊이 통합하는 전략.",
+      "page_or_section": "정부업무보고"
+    },
+    {
+      "evidence_id": "ev_cn_scnet_01",
+      "document_id": "china_scnet",
+      "document_title": "국가 초산 인터넷 플랫폼",
+      "issuing_body": "국가 슈퍼컴퓨팅 인터넷 연합체",
+      "year": 2023,
+      "url": "https://www.scnet.cn/",
+      "excerpt": "전국 슈퍼컴퓨팅 센터를 하나의 인터넷 플랫폼으로 연결, 클라우드 방식 HPC 접근.",
+      "page_or_section": "플랫폼 소개"
+    },
+    {
+      "evidence_id": "ev_kr_sovereign_fm_01",
+      "document_id": "korea_sovereign_fm",
+      "document_title": "독자 AI 파운데이션 모델 프로젝트",
+      "issuing_body": "과학기술정보통신부 / NIPA",
+      "year": 2025,
+      "url": "https://www.msit.go.kr/bbs/view.do?sCode=user&mId=307&mPid=208&pageIndex=&bbsSeqNo=94&nttSeqNo=3186073&searchOpt=ALL&searchTxt=",
+      "excerpt": "글로벌 최신 AI 모델 대비 95% 이상 성능의 독자 AI FM 개발. 2027년까지 약 5,300억 원 규모. LG AI연구원·SKT·업스테이지 3팀 2차 진출.",
+      "page_or_section": "프로젝트 발표평가 결과"
+    },
+    {
+      "evidence_id": "ev_kr_specialized_fm_01",
+      "document_id": "korea_specialized_fm",
+      "document_title": "AI 특화 파운데이션 모델 프로젝트",
+      "issuing_body": "과학기술정보통신부",
+      "year": 2025,
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156751997",
+      "excerpt": "의과학 특화(루닛 컨소시엄, 32B급) 및 바이오 특화(KAIST 컨소시엄, 단백질 구조 예측) AI FM 개발. 2027~2031년 약 7,000억 원 투자 계획.",
+      "page_or_section": "보도자료"
+    }
+  ],
+  "content_links": [
+    {
+      "target_section": "countries.korea.strategy_type",
+      "target_text": "산업·인프라 기반 Science 확장형",
+      "evidence_ids": ["ev_kr_action_plan_01"],
+      "has_sufficient_evidence": true
+    },
+    {
+      "target_section": "countries.korea.lead_agency",
+      "target_text": "국가인공지능전략위원회(대통령 직속)",
+      "evidence_ids": ["ev_kr_action_plan_02"],
+      "has_sufficient_evidence": true
+    },
+    {
+      "target_section": "countries.japan.strategy_type",
+      "target_text": "연구 시스템 혁신",
+      "evidence_ids": ["ev_jp_mext_01"],
+      "has_sufficient_evidence": true
+    },
+    {
+      "target_section": "countries.usa.strategy_type",
+      "target_text": "AI 연구 인프라",
+      "evidence_ids": ["ev_us_nairr_01", "ev_us_nairr_02"],
+      "has_sufficient_evidence": true
+    },
+    {
+      "target_section": "countries.eu.strategy_type",
+      "target_text": "연구 네트워크",
+      "evidence_ids": ["ev_eu_ai_science_01", "ev_eu_continent_01"],
+      "has_sufficient_evidence": true
+    },
+    {
+      "target_section": "countries.china.strategy_type",
+      "target_text": "산업 혁신 플랫폼",
+      "evidence_ids": ["ev_cn_ai_plus_01", "ev_cn_scnet_01"],
+      "has_sufficient_evidence": true
+    },
+    {
+      "target_section": "overview.korea_pest.T",
+      "target_text": "독자 AI 파운데이션 모델 프로젝트 추진",
+      "evidence_ids": ["ev_kr_sovereign_fm_01", "ev_kr_specialized_fm_01"],
+      "has_sufficient_evidence": true
+    },
+    {
+      "target_section": "comparisons.infrastructure.korea",
+      "target_text": "독자 AI FM + AI 인프라 재설계 + 클라우드 전환",
+      "evidence_ids": ["ev_kr_action_plan_01", "ev_kr_sovereign_fm_01"],
+      "has_sufficient_evidence": true
+    }
+  ]
+}

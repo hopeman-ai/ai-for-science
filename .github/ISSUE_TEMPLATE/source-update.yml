@@ -1,0 +1,35 @@
+name: "최신 자료 제안"
+description: "각국의 새로운 정책 발표, 행동계획, 프로젝트 현황 업데이트를 제안합니다."
+labels: ["needs-update", "source"]
+body:
+  - type: input
+    id: country
+    attributes:
+      label: "관련 국가"
+      placeholder: "예: 한국, 미국, EU, 일본, 중국"
+    validations:
+      required: true
+  - type: input
+    id: doc_title
+    attributes:
+      label: "자료 제목"
+    validations:
+      required: true
+  - type: input
+    id: org
+    attributes:
+      label: "발행 기관"
+  - type: input
+    id: date
+    attributes:
+      label: "발행일"
+      placeholder: "예: 2026-03"
+  - type: input
+    id: url
+    attributes:
+      label: "자료 URL"
+  - type: textarea
+    id: summary
+    attributes:
+      label: "핵심 내용 요약"
+      placeholder: "이 자료가 기존 서비스 내용에 어떤 영향을 주는지 간략히 설명해 주세요."

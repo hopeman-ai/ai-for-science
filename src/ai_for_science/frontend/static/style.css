@@ -1,0 +1,279 @@
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#f3f4f8;--card:#fff;--text:#1e293b;--sub:#64748b;--accent:#4f6df5;--al:#eef1ff;--border:#e5e7eb;--sh:0 1px 3px rgba(0,0,0,.06),0 2px 8px rgba(0,0,0,.04);--r:14px;--korea:#8b5cf6;--japan:#dc4545;--china:#e8933a;--usa:#3b82f6;--eu:#22c55e}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans KR',sans-serif;background:var(--bg);color:var(--text);line-height:1.65;-webkit-font-smoothing:antialiased}
+
+/* Header */
+header{background:linear-gradient(135deg,#0f172a,#1e293b,#0f3460);color:#fff;padding:2.6rem 1.5rem 2.2rem;text-align:center}
+.header-inner{max-width:900px;margin:0 auto}
+header h1{font-size:2rem;font-weight:800;letter-spacing:-.5px}
+.subtitle{color:#94a3b8;font-size:.93rem;margin-top:.3rem}
+
+/* Tabs */
+.tab-nav{background:var(--card);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100}
+.tab-inner{max-width:1400px;margin:0 auto;display:flex;justify-content:center;overflow-x:auto}
+.tab-btn{padding:14px 24px;background:none;border:none;border-bottom:3px solid transparent;font-size:.88rem;font-weight:600;color:var(--sub);cursor:pointer;transition:.2s;white-space:nowrap}
+.tab-btn:hover{color:var(--accent)}
+.tab-btn.active{color:var(--accent);border-bottom-color:var(--accent)}
+
+/* Main */
+main{max-width:1400px;margin:0 auto;padding:2rem 1.5rem 3rem}
+.tab-content{display:none}
+.tab-content.active{display:block}
+
+/* Utils */
+.stitle{margin-bottom:1.2rem}
+.stitle h2{font-size:1.2rem;font-weight:700}
+.stitle p{font-size:.86rem;color:var(--sub);margin-top:2px}
+.card{background:var(--card);border-radius:var(--r);padding:1.4rem;box-shadow:var(--sh)}
+.card+.card{margin-top:1.1rem}
+
+/* 핵심 개념 카드 — 4개 균일 크기 */
+.concept-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.1rem;margin-bottom:1rem}
+.concept-card{background:var(--card);border-radius:var(--r);padding:1.4rem;box-shadow:var(--sh);height:160px;display:flex;flex-direction:column;overflow:hidden}
+.concept-term{color:var(--accent);font-weight:700;font-size:.95rem;margin-bottom:6px;flex-shrink:0}
+.concept-desc{font-size:.84rem;color:var(--sub);line-height:1.55;flex:1;overflow:hidden;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical}
+@media(max-width:900px){.concept-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:650px){.concept-grid{grid-template-columns:1fr}.concept-card{height:auto}}
+.grid{display:grid;gap:1.1rem}
+.g2{grid-template-columns:repeat(2,1fr)}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g4{grid-template-columns:repeat(4,1fr)}
+.g5{grid-template-columns:repeat(5,1fr)}
+/* 대시보드 섹션 */
+.dash-section{margin-bottom:2.2rem}
+
+/* 블록1: 글로벌 전략 스냅샷 */
+.snapshot-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:1rem}
+.snapshot-card{background:var(--card);border-radius:var(--r);padding:1.1rem .8rem;box-shadow:var(--sh);text-align:center;border-top:3px solid var(--accent);display:flex;flex-direction:column;align-items:center;height:100%}
+.snapshot-card:nth-child(1){border-top-color:var(--usa)} .snapshot-card:nth-child(2){border-top-color:var(--eu)} .snapshot-card:nth-child(3){border-top-color:var(--japan)} .snapshot-card:nth-child(4){border-top-color:var(--china)} .snapshot-card:nth-child(5){border-top-color:var(--korea)}
+.snap-flag{font-size:1.8rem;margin-bottom:4px}
+.snap-name{font-size:.95rem;font-weight:800;color:var(--text)}
+.snap-type{font-size:.76rem;font-weight:600;color:var(--accent);margin-top:4px;line-height:1.35}
+@media(max-width:900px){.snapshot-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:650px){.snapshot-grid{grid-template-columns:repeat(2,1fr)}}
+
+/* 블록2: 전략 구조 요약 */
+.structure-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
+.structure-card{background:var(--card);border-radius:var(--r);padding:1.2rem;box-shadow:var(--sh);text-align:center;display:flex;flex-direction:column;align-items:center;height:100%}
+.str-icon{font-size:1.5rem;margin-bottom:4px}
+.str-label{font-size:.82rem;font-weight:700;color:var(--sub);text-transform:uppercase;letter-spacing:.3px}
+.str-value{font-size:1.5rem;font-weight:800;color:var(--text);line-height:1.2;margin:2px 0}
+.str-countries{font-size:.88rem;font-weight:700;color:var(--accent);margin-bottom:4px}
+.str-desc{font-size:.74rem;color:var(--sub);line-height:1.4;flex:1}
+.structure-note{text-align:center;font-size:.78rem;color:var(--sub);font-style:italic;margin-top:.8rem;padding:.6rem 1rem;background:#f8fafc;border-radius:8px}
+@media(max-width:900px){.structure-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:650px){.structure-grid{grid-template-columns:1fr}}
+
+/* 블록3: 데이터 신뢰성 (보조) */
+.reliability-section{border-top:1px solid var(--border);padding-top:1.2rem}
+.reliability-grid{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:center}
+.rel-item{font-size:.82rem;color:var(--sub)}
+.rel-value{font-weight:800;color:var(--text);font-size:.88rem}
+.rel-label{font-weight:600;color:var(--accent)}
+.rel-desc{color:var(--sub);font-size:.76rem}
+
+/* 포지셔닝 차트 */
+.chart-container{background:var(--card);border-radius:var(--r);padding:1.6rem;box-shadow:var(--sh)}
+.chart-wrapper{display:flex;justify-content:center;margin-bottom:1rem}
+.chart-wrapper canvas{max-width:100%;height:auto}
+.chart-legend{display:flex;flex-wrap:wrap;gap:10px 20px;justify-content:center;margin-bottom:.8rem}
+.legend-item{display:flex;align-items:center;gap:5px;font-size:.82rem}
+.legend-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.legend-flag{font-size:1rem}
+.legend-name{font-weight:700;color:var(--text)}
+.legend-type{color:var(--sub);font-size:.76rem}
+.chart-note{text-align:center;font-size:.76rem;color:var(--sub);font-style:italic;padding-top:.6rem;border-top:1px solid var(--border)}
+@media(max-width:650px){.chart-legend{flex-direction:column;align-items:flex-start}}
+
+.banner{padding:1.4rem 1.8rem;border-radius:var(--r);color:#fff;margin-bottom:1.8rem;line-height:1.7}
+.banner-purple{background:linear-gradient(135deg,#7c3aed,#8b5cf6);box-shadow:0 4px 20px rgba(139,92,246,.25)}
+.banner-blue{background:linear-gradient(135deg,#4f6df5,#6366f1);box-shadow:0 4px 20px rgba(79,109,245,.25)}
+.banner .bl{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;opacity:.8;margin-bottom:5px}
+.banner .bt{font-size:.93rem}
+.pill{display:inline-block;padding:3px 10px;border-radius:20px;font-size:.72rem;font-weight:700}
+.mt2{margin-top:2rem}
+.mb1{margin-bottom:1rem}
+
+/* Country cards */
+.cc{background:var(--card);border-radius:var(--r);padding:1.15rem;box-shadow:var(--sh);border-top:4px solid var(--accent);display:flex;flex-direction:column;transition:transform .15s,box-shadow .15s}
+.cc:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.1)}
+.cc[data-c=korea]{border-top-color:var(--korea)} .cc[data-c=japan]{border-top-color:var(--japan)} .cc[data-c=china]{border-top-color:var(--china)} .cc[data-c=usa]{border-top-color:var(--usa)} .cc[data-c=eu]{border-top-color:var(--eu)}
+.cc .ct{display:flex;align-items:center;gap:8px;margin-bottom:7px}
+.cc .flag{font-size:1.5rem;line-height:1}
+.cc .cn{font-size:1rem;font-weight:700}
+.cc .sb{margin-bottom:7px}
+.cc[data-c=korea] .pill{background:#f3e8ff;color:var(--korea)} .cc[data-c=japan] .pill{background:#fde8e8;color:var(--japan)} .cc[data-c=china] .pill{background:#fef3e2;color:var(--china)} .cc[data-c=usa] .pill{background:#e8f0fe;color:var(--usa)} .cc[data-c=eu] .pill{background:#e8f8ee;color:var(--eu)}
+.cc .ol{font-size:.83rem;color:var(--text);font-weight:500;margin-bottom:9px;line-height:1.45;flex:1}
+.cc .mt{width:100%;border-top:1px solid var(--border);padding-top:7px}
+.cc .mr{display:flex;gap:6px;padding:2px 0;font-size:.76rem}
+.cc .ml{color:var(--sub);white-space:nowrap;min-width:54px;font-weight:600}
+.cc .mv{color:var(--text)}
+
+/* Chips */
+.chips{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:1.6rem}
+.chip{padding:8px 20px;border:2px solid var(--border);border-radius:25px;background:var(--card);font-size:.86rem;font-weight:600;cursor:pointer;transition:.2s;color:var(--sub)}
+.chip:hover{border-color:var(--accent);color:var(--accent)}
+.chip.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+/* Comp cards */
+.compc{background:var(--card);border-radius:var(--r);padding:1.15rem;box-shadow:var(--sh);border-left:5px solid var(--accent);display:flex;flex-direction:column}
+.compc[data-c=korea]{border-left-color:var(--korea)} .compc[data-c=japan]{border-left-color:var(--japan)} .compc[data-c=china]{border-left-color:var(--china)} .compc[data-c=usa]{border-left-color:var(--usa)} .compc[data-c=eu]{border-left-color:var(--eu)}
+.compc .cco{font-size:.88rem;font-weight:700;margin-bottom:5px;display:flex;align-items:center;gap:5px}
+.compc .ccs{font-size:.84rem;font-weight:700;color:var(--accent);margin-bottom:7px;padding-bottom:7px;border-bottom:1px solid var(--al);line-height:1.35}
+.compc .ccd{font-size:.79rem;color:var(--sub);line-height:1.6;flex:1}
+
+/* Markdown */
+.md{overflow-x:auto}
+.md table{width:100%;border-collapse:collapse;font-size:.83rem}
+.md thead th{background:#0f172a;color:#fff;padding:9px 13px;text-align:left;font-weight:600;font-size:.8rem;white-space:nowrap}
+.md tbody td{padding:9px 13px;border-bottom:1px solid var(--border);vertical-align:top;line-height:1.5}
+.md tbody tr:last-child td{border-bottom:none}
+.md tbody tr:hover td{background:#f8faff}
+.md tbody td:first-child{font-weight:600;color:var(--accent);white-space:nowrap;min-width:70px}
+.md h3{font-size:.98rem;margin-bottom:.7rem;color:var(--text)}
+.md p{margin:.3rem 0;font-size:.85rem}
+.md strong{color:var(--accent)}
+.md hr{border:none;border-top:1px solid var(--border);margin:.8rem 0}
+.md ul{padding-left:1.1rem;margin:.4rem 0}
+.md li{font-size:.83rem;margin:2px 0;color:var(--sub)}
+
+/* About - component card (구성요소 카드 — 구분선 위치 통일) */
+.grid.g5>.cmpcard{height:100%}
+.cmpcard{background:var(--card);border-radius:var(--r);padding:1.3rem;box-shadow:var(--sh);display:flex;flex-direction:column}
+.cmpcard .cicon{font-size:1.8rem;margin-bottom:8px;flex-shrink:0}
+.cmpcard .cname{font-size:.95rem;font-weight:700;margin-bottom:6px;flex-shrink:0}
+.cmpcard .celems{list-style:none;padding:0;flex:1 1 auto;min-height:0}
+.cmpcard .celems li{font-size:.82rem;color:var(--sub);padding:3px 0 3px 14px;position:relative;line-height:1.45}
+.cmpcard .celems li::before{content:'';position:absolute;left:2px;top:10px;width:5px;height:5px;border-radius:50%;background:var(--accent)}
+.cmpcard .cstatus{font-size:.76rem;color:var(--sub);padding-top:7px;border-top:1px solid var(--border);font-style:italic;flex-shrink:0;margin-top:auto}
+
+/* About - reason / trend cards */
+.rcard{background:var(--card);border-radius:var(--r);padding:1.2rem;box-shadow:var(--sh);border-left:4px solid var(--accent)}
+.rcard .rl{font-size:.92rem;font-weight:700;margin-bottom:5px;color:var(--text)}
+.rcard .rd{font-size:.83rem;color:var(--sub);line-height:1.6}
+.rcard .ry{font-size:.72rem;color:var(--accent);font-weight:700;margin-bottom:3px}
+
+/* Execution - challenge cards */
+.excard{background:var(--card);border-radius:var(--r);padding:1.3rem;box-shadow:var(--sh)}
+.excard .exname{font-size:.95rem;font-weight:700;margin-bottom:4px}
+.excard .expri{font-size:.72rem;font-weight:700;display:inline-block;padding:2px 8px;border-radius:12px;margin-bottom:8px}
+.expri.top{background:#fde8e8;color:#dc2626}
+.expri.high{background:#fef3e2;color:#d97706}
+.expri.mid{background:#e8f0fe;color:#3b82f6}
+.excard .exrow{font-size:.82rem;color:var(--sub);padding:4px 0;border-top:1px solid #f5f5f5;line-height:1.5}
+.excard .exrow:first-of-type{border-top:none}
+.excard .exrow b{color:var(--text);font-weight:600}
+
+/* Governance model */
+.govcard{background:var(--card);border-radius:var(--r);padding:1.3rem;box-shadow:var(--sh);border-top:4px solid var(--accent)}
+.govcard .gm{font-size:.95rem;font-weight:700;margin-bottom:3px}
+.govcard .gc{font-size:.78rem;color:var(--accent);font-weight:600;margin-bottom:8px}
+.govcard .gd{font-size:.83rem;color:var(--sub);margin-bottom:8px;line-height:1.5}
+.govcard .gp{font-size:.8rem;padding:4px 0;border-top:1px solid #f5f5f5;line-height:1.45}
+.govcard .gp b{color:var(--text);font-weight:600;font-size:.78rem}
+
+/* Insights - policy card */
+.polcard{background:var(--card);border-radius:var(--r);padding:1.3rem;box-shadow:var(--sh);border-left:4px solid var(--accent)}
+.polcard .pnum{font-size:1.4rem;font-weight:800;color:var(--al);float:right;line-height:1}
+.polcard .ptitle{font-size:.95rem;font-weight:700;margin-bottom:3px}
+.polcard .purg{font-size:.72rem;font-weight:700;display:inline-block;padding:2px 8px;border-radius:12px;margin-bottom:8px}
+.purg.imm{background:#fde8e8;color:#dc2626}
+.purg.y1{background:#fef3e2;color:#d97706}
+.purg.y2{background:#e8f0fe;color:#3b82f6}
+.polcard .pd{font-size:.83rem;color:var(--sub);line-height:1.55;margin-bottom:6px}
+.polcard .pi{font-size:.8rem;color:var(--text);padding-top:6px;border-top:1px solid #f5f5f5;line-height:1.45}
+.polcard .pi b{color:var(--accent);font-weight:600}
+
+/* Scenario */
+.sccard{background:var(--card);border-radius:var(--r);padding:1.4rem;box-shadow:var(--sh)}
+.sccard .sn{font-size:1rem;font-weight:700;margin-bottom:4px}
+.sccard .sc{font-size:.82rem;color:var(--accent);font-weight:600;margin-bottom:8px;line-height:1.45}
+.sccard .so{font-size:.84rem;color:var(--sub);line-height:1.55;margin-bottom:8px}
+.sccard .sp{font-size:.78rem;padding-top:6px;border-top:1px solid #f5f5f5}
+.sccard .sp b{font-weight:600}
+.sccard.sa{border-top:4px solid #22c55e}
+.sccard.sb{border-top:4px solid #e8933a}
+.sccard.sc2{border-top:4px solid #dc4545}
+
+/* PEST Diagnosis */
+.pest-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.2rem;margin-bottom:2rem}
+.pest-card{background:var(--card);border-radius:var(--r);padding:1.4rem;box-shadow:var(--sh);border-top:4px solid var(--accent)}
+.pest-card .pest-header{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.pest-card .pest-axis{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1rem;font-weight:800;color:#fff;flex-shrink:0}
+.pest-card .pest-title{font-size:1rem;font-weight:700}
+.pest-card .pest-section{margin-bottom:10px}
+.pest-card .pest-section:last-child{margin-bottom:0}
+.pest-card .pest-label{font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px;padding-bottom:3px}
+.pest-label.state{color:#3b82f6;border-bottom:1px solid #e8f0fe}
+.pest-label.bottleneck{color:#dc2626;border-bottom:1px solid #fde8e8}
+.pest-label.implication{color:#7c3aed;border-bottom:1px solid #f3e8ff}
+.pest-card ul{list-style:none;padding:0}
+.pest-card li{font-size:.83rem;color:var(--sub);padding:3px 0 3px 16px;position:relative;line-height:1.5}
+.pest-card li::before{content:'';position:absolute;left:3px;top:10px;width:5px;height:5px;border-radius:50%}
+.pest-label.state+ul li::before{background:#3b82f6}
+.pest-label.bottleneck+ul li::before{background:#dc2626}
+.pest-label.implication+ul li::before{background:#7c3aed}
+
+/* PEST-Policy Mapping */
+.map-table{width:100%;border-collapse:collapse;font-size:.84rem}
+.map-table thead th{background:#0f172a;color:#fff;padding:9px 13px;text-align:left;font-weight:600}
+.map-table tbody td{padding:9px 13px;border-bottom:1px solid var(--border);vertical-align:top;line-height:1.5}
+.map-table tbody tr:hover td{background:#f8faff}
+.map-table .axis-tag{display:inline-block;padding:2px 8px;border-radius:10px;font-size:.72rem;font-weight:700;color:#fff;margin-right:4px}
+.axis-P{background:#3b82f6}
+.axis-E{background:#22c55e}
+.axis-S{background:#e8933a}
+.axis-T{background:#8b5cf6}
+
+/* Ref cards */
+.refc{background:var(--card);border-radius:var(--r);padding:1.3rem;box-shadow:var(--sh);border-left:5px solid var(--accent);display:flex;flex-direction:column}
+.refc[data-c=korea]{border-left-color:var(--korea)} .refc[data-c=japan]{border-left-color:var(--japan)} .refc[data-c=china]{border-left-color:var(--china)} .refc[data-c=usa]{border-left-color:var(--usa)} .refc[data-c=eu]{border-left-color:var(--eu)}
+.refc .rt{font-size:.93rem;font-weight:700;line-height:1.3;margin-bottom:3px}
+.refc .rt a{color:var(--accent);text-decoration:none}
+.refc .rt a:hover{text-decoration:underline}
+.refc .rb{font-size:.7rem;font-weight:700;padding:2px 9px;border-radius:12px;white-space:nowrap}
+.rb[data-c=korea]{background:#f3e8ff;color:var(--korea)} .rb[data-c=japan]{background:#fde8e8;color:var(--japan)} .rb[data-c=china]{background:#fef3e2;color:var(--china)} .rb[data-c=usa]{background:#e8f0fe;color:var(--usa)} .rb[data-c=eu]{background:#e8f8ee;color:var(--eu)}
+.refc .rm{font-size:.76rem;color:var(--sub);margin-bottom:9px}
+.refc .rs{flex:1}
+.rss{padding:6px 0;border-top:1px solid var(--border)}
+.rss:first-child{border-top:none;padding-top:0}
+.rsl{font-size:.74rem;font-weight:700;color:var(--text);margin-bottom:2px;text-transform:uppercase;letter-spacing:.4px}
+.rst{font-size:.82rem;color:var(--sub);line-height:1.5}
+.rsul{list-style:none;padding:0}
+.rsul li{font-size:.8rem;color:var(--sub);padding:2px 0 2px 16px;position:relative;line-height:1.45}
+.rsul li::before{content:'';position:absolute;left:3px;top:8px;width:5px;height:5px;border-radius:50%;background:var(--accent)}
+.rlb{display:inline-flex;align-items:center;gap:5px;margin-top:10px;padding:6px 14px;background:var(--al);color:var(--accent);border-radius:8px;text-decoration:none;font-size:.8rem;font-weight:700;transition:.2s;align-self:flex-start}
+.rlb:hover{background:#dde2ff}
+
+/* External resources */
+.ext-card{border-left-color:#0ea5e9!important;background:linear-gradient(135deg,#f0f9ff,#fff)}
+.ext-badge{background:#e0f2fe;color:#0284c7;font-size:.7rem;font-weight:700;padding:2px 9px;border-radius:12px;white-space:nowrap}
+.ext-resources{margin-bottom:1rem}
+
+/* Primary document badge */
+.primary-badge{background:#f3e8ff;color:#7c3aed;font-size:.7rem;font-weight:700;padding:2px 9px;border-radius:12px;display:inline-block;margin-bottom:6px}
+.primary-doc{border-left-color:var(--korea)!important;box-shadow:var(--sh),0 0 0 1px rgba(139,92,246,.15)}
+
+/* 검증 배지 */
+.verify-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:.65rem;font-weight:700;margin-left:auto;white-space:nowrap}
+.verify-badge.pass{background:#dcfce7;color:#16a34a}
+.verify-badge.revise{background:#fef3c7;color:#d97706}
+.verify-badge.escalate{background:#fde8e8;color:#dc2626}
+.verify-badge.hold{background:#f1f5f9;color:#64748b}
+.verify-badge.draft{background:#f1f5f9;color:#94a3b8}
+
+/* 근거 보기 버튼 */
+.ev-btn{background:#eef1ff;color:var(--accent);border:1px solid #dde2ff;border-radius:6px;padding:3px 10px;font-size:.72rem;font-weight:600;cursor:pointer;transition:.2s;margin-top:6px}
+.ev-btn:hover{background:#dde2ff}
+.cc-footer{margin-top:6px;padding-top:6px;border-top:1px solid var(--border)}
+
+/* Footer */
+footer{text-align:center;padding:2rem 1rem;color:var(--sub);font-size:.8rem;border-top:1px solid var(--border);margin-top:2rem}
+.footer-disclaimer{font-size:.72rem;color:#94a3b8;margin-top:4px}
+.footer-disclaimer a{color:var(--accent);text-decoration:none}
+.footer-disclaimer a:hover{text-decoration:underline}
+
+/* Responsive */
+@media(max-width:1200px){.g5,.grid.g5{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:900px){.g5,.g4,.g3{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:650px){.g5,.g4,.g3,.g2,.pest-grid{grid-template-columns:1fr}.tab-btn{padding:11px 14px;font-size:.82rem}header h1{font-size:1.4rem}main{padding:1rem}}

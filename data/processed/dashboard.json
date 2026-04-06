@@ -1,0 +1,71 @@
+{
+  "globalSnapshot": {
+    "title": "글로벌 전략 스냅샷",
+    "subtitle": "5개국의 AI for Science 전략 유형을 비교합니다.",
+    "countries": [
+      { "flag": "🇺🇸", "name": "미국", "type": "연구 인프라 개방형" },
+      { "flag": "🇪🇺", "name": "EU", "type": "연구 네트워크 통합형" },
+      { "flag": "🇯🇵", "name": "일본", "type": "연구 시스템 혁신형" },
+      { "flag": "🇨🇳", "name": "중국", "type": "산업 플랫폼 주도형" },
+      { "flag": "🇰🇷", "name": "한국", "type": "산업·인프라 기반 Science 확장형" }
+    ]
+  },
+  "strategyStructure": {
+    "title": "전략 구조 요약",
+    "subtitle": "국가별 전략의 지향과 추진 방식을 구조적으로 비교합니다.",
+    "cards": [
+      {
+        "label": "과학 중심",
+        "icon": "🔬",
+        "value": "3개국",
+        "countries": "미국 · EU · 일본",
+        "desc": "과학 연구 혁신과 연구 시스템 개선을 전략의 중심에 배치"
+      },
+      {
+        "label": "산업 중심",
+        "icon": "🏭",
+        "value": "2개국",
+        "countries": "중국 · 한국",
+        "desc": "산업 경쟁력·인프라 확장을 통해 과학 연구 역량을 간접 강화"
+      },
+      {
+        "label": "연구자/생태계 주도",
+        "icon": "🌐",
+        "value": "2개국",
+        "countries": "미국 · EU",
+        "desc": "연구기관·네트워크·민간 파트너십 중심의 분산형 추진"
+      },
+      {
+        "label": "정부 주도",
+        "icon": "🏛️",
+        "value": "2개국",
+        "countries": "중국 · 한국",
+        "desc": "범정부 계획·국가 투자 기반의 top-down 방식 추진"
+      }
+    ],
+    "note": "일본은 과학 중심이지만 정부(MEXT) 주도성이 혼합된 독자적 구조입니다."
+  },
+  "dataReliability": {
+    "title": "데이터 기반 정보",
+    "items": [
+      { "label": "정책 문서", "value": "10건", "desc": "국가별 핵심 전략 문서" },
+      { "label": "행동계획", "value": "5건", "desc": "실행 로드맵 포함" },
+      { "label": "공식 출처", "value": "11건", "desc": "정부·공공기관 자료" },
+      { "label": "최근 업데이트", "value": "2026.03", "desc": "데이터 기준 시점" }
+    ]
+  },
+  "positioning": {
+    "title": "국가 전략 포지셔닝",
+    "subtitle": "각 국가의 AI for Science 전략을 '지향 분야(산업 vs 과학)'와 '추진 방식(정부 주도 vs 연구자/생태계 주도)'의 2축으로 비교합니다.",
+    "note": "이 차트는 정량 지표가 아닌 전략 문서 분석에 기반한 상대적 포지셔닝입니다. 중국과 한국은 상대적으로 정부 주도 성격이 강하고, EU와 미국은 연구자·기관·네트워크 기반의 추진 성격이 상대적으로 두드러집니다.",
+    "axisX": { "label": "산업 중심 ← → 과학 중심", "min": "산업 중심", "max": "과학 중심" },
+    "axisY": { "label": "정부 주도 ← → 연구자/생태계 주도", "min": "정부 주도", "max": "연구자/생태계 주도" },
+    "countries": [
+      { "code": "usa",  "name": "미국", "flag": "🇺🇸", "x": 70, "y": 72, "type": "연구 인프라 개방형", "color": "#3b82f6" },
+      { "code": "eu",   "name": "EU",   "flag": "🇪🇺", "x": 65, "y": 78, "type": "연구 네트워크 통합형", "color": "#22c55e" },
+      { "code": "japan", "name": "일본", "flag": "🇯🇵", "x": 75, "y": 48, "type": "연구 시스템 혁신형", "color": "#dc4545" },
+      { "code": "china", "name": "중국", "flag": "🇨🇳", "x": 25, "y": 22, "type": "산업 플랫폼 주도형", "color": "#e8933a" },
+      { "code": "korea", "name": "한국", "flag": "🇰🇷", "x": 32, "y": 28, "type": "산업·인프라 기반 Science 확장형", "color": "#8b5cf6" }
+    ]
+  }
+}

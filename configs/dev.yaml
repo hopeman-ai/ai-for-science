@@ -1,0 +1,8 @@
+# 개발 환경 설정 (base.yaml 오버라이드)
+
+server:
+  reload: true
+  log_level: "debug"
+
+llm:
+  temperature: 0.5
